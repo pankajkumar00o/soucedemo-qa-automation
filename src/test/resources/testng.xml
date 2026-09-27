@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo QA Suite" verbose="1">
+    <test name="Smoke and Regression Checks">
+        <classes>
+            <class name="com.qa.saucedemo.tests.LoginTests"/>
+            <class name="com.qa.saucedemo.tests.CartTests"/>
+            <class name="com.qa.saucedemo.tests.ProductSortTests"/>
+        </classes>
+    </test>
+</suite>
